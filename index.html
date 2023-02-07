@@ -27,7 +27,7 @@
             e.preventDefault();
         
             myname = document.getElementById('name').value;
-            fetch('https://dhnkim.azurewebsites.net/api/SetLocation', {
+            fetch('/api/Location', {
                 method: 'POST',
                 headers: {
                 'Accept': 'application/json, text/plain, */*',
